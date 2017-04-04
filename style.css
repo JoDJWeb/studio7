@@ -6,6 +6,7 @@ width: 100%;
 height: 100%;
 margin: 0;
 
+
 }
 .maintitle{
   padding-top: 150px;
@@ -229,7 +230,7 @@ align-self: center;
   text-align: center;
   font-size: 15px;
   color: rgba(255,255,255,0.5);
-
+  
 }
 .ikonicekont h4{
   color: #25BAD0;
@@ -511,7 +512,10 @@ span {
   background: linear-gradient(to bottom, rgba(5,55,64,1) 0%, rgba(5,55,64,0.6) 100%),  url("images/contact-bg.jpg");
   background-size: 100%;
   background-repeat: no-repeat; 
-  margin:0;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   
 }
 
@@ -707,4 +711,327 @@ span {
 }
 .footercont a:hover{
   color: #25BAD0;
+}
+.dropdown{
+   display: none;  
+  }
+.dropdown-content{
+  display: none;
+}
+.mobiledugmici{
+  display: none;
+}
+
+
+
+
+
+
+@media (max-width: 702px) {
+  body{
+    margin: 0;
+  }
+  .dugmici{
+    display: none;
+  }
+
+
+  .navdiv{
+    display: none;
+  
+  }
+  .navcont{
+    display:flex;
+    flex-direction: row;
+  }
+  
+  
+  .logodiv{
+    order: 1;
+  }
+  .dropdown {
+    order: 2;
+    position: relative;
+    display: inline-block;
+  
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  .maintitle{
+  padding-top: 5px;
+  
+  text-align: center;
+}
+
+
+  .servisicont{
+  height: 1300px;
+  }
+  .servisikont{
+    padding-top:150px;
+    padding-bottom: 650px;
+  }
+  
+  .ikonicekont{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 50px;
+  }  
+  .ikonicekont1 {
+    order: 1;
+    padding-bottom: 260px;
+    align-self: center;
+
+
+  } 
+  .ikonicekont2{
+    order: 2;
+    padding-bottom: 260px;
+    align-self: center;
+  }
+  .ikonicekont3{
+    order: 3;
+    padding-bottom: 260px;
+    align-self: center;
+  }
+  .ikonicekont4{
+    order: 4;
+    padding-bottom: 250px;
+    align-self: center;
+  }
+  .desktop, .rocket, .gear, .chart{
+  padding-bottom: 100px;
+  
+  }
+  .ikoniceprvi p, .ikonicedrugi p, .ikonicetreci p, .ikonicecetvrti p{
+    font-size: 12px;
+  }
+  .ikoniceprvi h4, .ikonicedrugi h4,.ikonicetreci h4, .ikonicecetvrti h4{
+    font-size:12px; 
+  }
+  .divtekst1 h4, .divtekst2 h4, .divtekst3 h4{
+    font-size: 12px;
+    text-align: center;
+  }
+  .divtekst1 p, .divtekst2 p, .divtekst3 p{
+    font-size: 12px;
+    text-align: center;
+  }
+  .aboutcont{
+    height:800px;
+  }
+  .slikatekst{
+    display: flex;
+    flex-direction: column;
+  }
+  .slika{
+    order: 1;
+  }
+  .tekst{
+    order: 2;
+  }
+.mobiledugmici{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.prvo{
+  order: 1;
+  padding-bottom:20px;
+  
+}
+.dugo{
+  order: 2;
+  padding-bottom:20px;
+  
+}
+
+
+.trece{
+  order: 3;
+  padding-top:10px;
+  padding-right: 5px;
+  
+}
+.cetvrto{
+  order: 2;
+  padding-top:10px;
+  padding-left: 5px; 
+  
+}
+.mobiledugmici a{
+  color: #25BAD0;
+  background-color: transparent;
+  border: 2px solid #25BAD0;
+  padding: 12px 20px;
+  margin: 0;
+  font-size: 15px;
+  border-radius: 0;
+  text-decoration: none;
+}
+.mobiledugmici a:hover {
+  background-color: #25BAD0; /* Green */
+  color: #053740; 
+}
+.teamcont{
+  height: 1500px;
+}
+.sliketima{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.sliketima1{
+  order: 1;
+  padding-bottom: 50px;
+  padding-right: 0;
+  align-self: center;
+}
+.sliketima2{
+  order: 2;
+  padding-bottom: 50px;
+  padding-right: 0;
+  align-self: center;
+}
+.sliketima3{
+  order: 3;
+  padding-bottom: 50px;
+  padding-right: 0;
+  align-self: center;
+}
+.sliketima4{
+  order: 4;
+  align-self: center;
+}
+
+.slika img{
+  background-image: width:400px; height: 200px;
+}
+.form1{
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  order: 1;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstrow{
+  order: 1;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+.seconrow{
+  order:2;
+}
+.big{
+  order: 2;
+}
+.dugm{
+  order:3;
+}
+
+.maintitle{
+  padding-top: 0;
+}
+
+.maintitle h1{
+margin: 0;
+  font-size: 40px;
+  
+}
+.maintitle p{
+  
+  font-size: 12px;
+ 
+}
+.headcont{
+  
+  height:440px;
+}
+.servisicont{
+  }
+.servisikont h2{
+  
+  font-size: 20px;
+  
+}
+.servisikont p{
+  
+  font-size: 12px;
+}
+* h2{
+  font-size: 20px;
+}
+* p{
+  font-size:12px;
+}
+.galcont{
+  padding-top: 100px;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.galcont h2{
+  font-size: 20px;
+}
+.galcont p{
+  font-size: 12px;
+}
+.sliketima1 h3, .sliketima2 h3, .sliketima3 h3, .sliketima4 h3{
+  font-size: 15px;
+}
+
+.hip{
+  
+  
+}
+.tim{
+  padding-top: 90px;
+}
+
+.tittle {
+  padding-top: 80px;
+  padding-bottom: 70px;  
+}
+
+.tittle h2{
+  font-size: 20px;
+}
+.tittle p{
+  font-size: 12px;
+}
+.social{
+  padding-top: 50px;
+}
+
+
+
+
+
+}
+@media (min-width: 703px) and (max-width: 1280px) {
+  
 }
