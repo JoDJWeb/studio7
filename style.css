@@ -746,14 +746,14 @@ span {
   }
   
   
-  .logodiv{
-    order: 1;
+    .logodiv{
+    order: 2;
   }
   .dropdown {
-    order: 2;
+    order: 1;
     position: relative;
     display: inline-block;
-    padding-left: 100px;
+    padding-right: 100px;
   
 
   }
